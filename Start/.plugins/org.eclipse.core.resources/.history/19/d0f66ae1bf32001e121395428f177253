@@ -1,0 +1,31 @@
+
+public class ExampleString 
+{
+	public static void main(String[] args)
+	{
+		String a="upesh";
+		String b="upesh";
+		String e="UPESh";
+		
+		String c = new String("datta");
+		String d = new String("datta");
+		
+		String f ="pw";
+		String g ="pw"+"skills";
+		
+		//comparing the references of String objects
+		System.out.println(a==b);
+		System.out.println(c==d);
+		
+		//comparing the data of Strings
+		System.out.println(a.equals(b));
+		System.out.println(c.equals(d));
+		System.out.println(a.equals(e));
+		
+		//ignores the case of the String 
+		System.out.println(a.equalsIgnoreCase(e));
+		
+		System.out.println(g);
+		
+	}
+}

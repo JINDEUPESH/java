@@ -1,0 +1,9 @@
+
+public class ExampleString 
+{
+	public static void main(String[] args)
+	{
+		String a="upesh";
+		System.out.println(a);
+	}
+}

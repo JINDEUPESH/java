@@ -1,0 +1,157 @@
+1.
+
+class calc
+{
+    int add(int x,int y)
+    {
+        return x+y;
+    }
+    int add(int x,int y,int z)
+    {
+        return x+y+z;
+    }
+    double add(double x,double y,double z)
+    {
+        return x+y+z;
+    }
+}
+
+public class Assignment29thMay 
+{
+    public static void main(String[] args) 
+    {
+        calc c = new calc();
+        System.out.println(c.add(1.1,2.5,3.7));
+        System.out.println(c.add(1,2,3));
+        System.out.println(c.add(555,2224));
+    }
+}
+
+
+2.
+
+//new class creation
+class Human
+{
+    void run()
+    {
+        System.out.println("Human can walk");
+    }
+}
+
+public class Assignment29thMay 
+{
+    public static void main(String[] args) 
+    {
+        Human h = new Human();//object creation
+        h.run();
+    }
+}
+
+
+3.
+
+
+import java.util.Scanner;
+public class Assignment29thMay 
+{
+    public static void main(String[] args) 
+    {
+        int sum=0;
+        Scanner in = new Scanner(System.in);
+        System.out.println("Enter the Size of array:");
+        int n=in.nextInt();
+        int arr[] = new int[n];
+        System.out.println("Enter array elements");
+        for(int i=0;i<n;i++)
+        {
+            arr[i]=in.nextInt();
+        }
+
+        for(int i=0;i<n;i++)
+        {
+            sum=sum+arr[i];
+        }
+        System.out.println("Array sum:"+sum);
+      
+    }
+}
+
+
+4.
+
+import java.util.Scanner;
+public class Assignment29thMay 
+{
+    public static void main(String[] args) 
+    {
+        int sum=0;
+        Scanner in = new Scanner(System.in);
+        System.out.println("Enter the Size of array:");
+        int n=in.nextInt();
+        int arr[] = new int[n];
+        System.out.println("Enter array elements");
+        for(int i=0;i<n;i++)
+        {
+            arr[i]=in.nextInt();
+        }
+
+        System.out.println("enter the number for which you want index:");
+        int m=in.nextInt();
+
+        for(int i=0;i<n;i++)
+        {
+            if(arr[i]==m)
+            {
+                System.out.println("index of " +m+ "is "+i);
+            }
+            else
+            {
+                System.out.println("element not present");
+            }
+        }
+    }
+}
+
+5.
+
+import java.util.Scanner;
+public class Assignment29thMay 
+{
+    public static void main(String[] args) 
+    {
+        int sum=0;
+        Scanner in = new Scanner(System.in);
+        System.out.println("Enter the Size of array:");
+        int n=in.nextInt();
+        int arr[] = new int[n];
+        System.out.println("Enter array elements");
+        for(int i=0;i<n;i++)
+        {
+            arr[i]=in.nextInt();
+        }
+        System.out.println("Array elements are:");
+      
+        for(int i=0;i<n;i++)
+        {
+                System.out.println(arr[i]);
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

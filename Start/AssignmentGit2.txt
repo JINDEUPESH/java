@@ -1,0 +1,23 @@
+1)Using git --version command we can check that git is available or not in our System.
+
+2)Using git init <repository_name> command we can initialize a directory.
+
+3)git config --global user.name"<user_name>"
+  git config --global user.email"<user_email>"
+
+4)using git add<file> command we can add a filr to staging area.
+
+5)Using git reser HEAD--<file> we can remove file from staging area.
+
+6)git commit -m "message" command is used to commit the changes that are done for a file.
+
+7) using git push command we can send our changes to remote repository.
+
+8)
+->clone command in git is used when you want to download an existing git repository to your local computer.
+->git pull when you want to make chnages or updates doneby team member on a git repository,you have to use git pull command.
+
+
+
+
+

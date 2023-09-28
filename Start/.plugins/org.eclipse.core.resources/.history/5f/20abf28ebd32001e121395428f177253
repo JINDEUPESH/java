@@ -1,0 +1,21 @@
+
+public class ExampleString 
+{
+	public static void main(String[] args)
+	{
+		String a="upesh";
+		String b="upesh";
+		
+		String c = new String("datta");
+		String d = new String("datta");
+		
+		//comparing the reference
+		System.out.println(a==b);
+		System.out.println(c==d);
+		
+		//comparing the data 
+		System.out.println(a.equals(b));
+		System.out.println(c.equals(d));
+		
+	}
+}

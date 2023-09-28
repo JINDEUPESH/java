@@ -1,0 +1,33 @@
+1)
+->Multithreading is a process to achieve multitasking.To execute two or more threads at a time in a single program is called multithreading.It is important because i modern world we want to do multiple works at a time to achieve this we can use multithreading.
+->To reduce the running time if a program we use multithreading.
+
+2)
+->Using multiThreading we can allocate the timing of execution effieciently.
+->It improves performance.
+->It saves time.
+
+3)
+->Thread actually means a line of execution in java. 
+->Threads are light weight processes.
+->Thread schedular will schedule which thread has to be executed first.
+
+4)
+Two ways of implementing thread in java:
+----------------------------------------
+->By extending the Thread class
+->By implementing the runnable interface
+
+5)
+Thread: It is a light weight process,it has the ability to execute different parts of  
+	the program at a time.
+Process: Process is the program under action.Aprocess can be handled by process control 	 block.
+
+6)
+->Daemon threads are actually the low priority threads.
+->we can create daemon threads using thread class setDaemon(true).
+->thread.isDaemon() method returns true if the thread is a daemon thread.
+
+7)
+->wait is non-static method that causes thread to wait and sleep until somethread calls notifyAll() or notify().
+->sleep() method will execute after waiting some period of time no need to call explicitly like wait()method.

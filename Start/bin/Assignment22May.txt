@@ -1,0 +1,114 @@
+1.The conditional operators are the ones which is used to check the condition is true or       false.There are 3 conditional operators in java they are  logical AND ,logical OR and NOT operator.It will return Boolean values.
+AND(&&) - It return True if all the conditions are true else it will return false
+OR (||) - It return true if any of the condition is true.
+NOT (!) - It makes a condtion false if it is true and vice versa
+
+Ternery(?:) operator is also considered as conditional operator it is just like a simple if else 
+statement.
+
+2.There are 3 types of operators based on number of operands in java,they are
+	unary   operator
+	binary  operator
+	ternary operator
+
+3.switch case is used to evaluate only one block of code in number of blocks of code,it checks the condtion if it is true it is evaluated and exited from switch case.
+Break key word is used in between the switch cases.
+
+4.They are two priority levels in arithmetic operations in java,thet are
+	High priority  */%
+	Low  priority  +-
+
+5.In java if-else statements are known as condtional statements ,if the condtion is true then if block is executed otherwise else block will executed.there are types of if else
+	1.simple if-else
+	2.Ladder if-else
+	3.Nested if-else
+
+6.	if(condition)
+	{
+		//code
+	}
+	else if(condition)
+	{
+		//code
+	}
+	else
+	{
+		//code
+	}
+else block is not mandatory in java.
+
+7. The 3 type sof iterative statements are:
+	1.for loop
+	2.while loop
+	3.Do while loop
+
+8.The difference between for loop and do-while loop is , if a condition is false in for loop it will never executed,but in the case of do-while loop the block of code is executed atleast once either the condition is true or false.
+
+	example: for(int i=0;i<n;i++)
+		{
+			//for single statement curly brackets are not necessary in for loop
+		}
+		
+		do
+		{
+			//Statements
+		}while(condition);
+
+9.
+
+public class Assignment22May 
+{
+    public static void main(String[] args)
+    {
+        int i;
+        for(i=1;i<=10;i++)
+        {
+            System.out.println(i);
+        }
+    }    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

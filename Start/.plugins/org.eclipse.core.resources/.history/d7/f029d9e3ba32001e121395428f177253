@@ -1,0 +1,10 @@
+
+public class ExampleString 
+{
+	public static void main(String[] args)
+	{
+		String a="upesh";
+		String b="upesh";
+		System.out.println(a==b);
+	}
+}
